@@ -1,0 +1,18 @@
+Active application:
+- Android platform APIs, subject to Android SDK/platform terms.
+- Tesseract4Android 4.9.0 (Tesseract 5.5.1), Apache License 2.0.
+- English tessdata_fast model, Apache License 2.0.
+- Native Leptonica, libjpeg-turbo and libpng dependencies; notices in licenses/.
+- Catalog data is fetched from Cinemeta, JustWatch and YouTube. Their data and
+  services retain their respective rights and policies; no partner license or
+  ownership of that catalog data is claimed.
+
+Build/test only:
+- Eclipse ECJ 3.38.0, Eclipse Public License 2.0.
+- JSON-java 20250517, public domain license.
+- Gradle wrapper/distribution, Apache License 2.0.
+- Android SDK tools and Android Gradle Plugin, their respective SDK/license terms.
+- JUnit 4.13.2, Eclipse Public License 1.0 (Gradle test bridge only).
+
+The app contains no Vosk/JNA speech runtime. Old speech/cloud experiments, local
+signing keys and installed APKs are excluded from this source handoff.

@@ -1,0 +1,34 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'dev.tvassistant'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'dev.tvassistant'
+        minSdk 33
+        targetSdk 34
+        versionCode 2
+        versionName '0.2-content-and-picture'
+        ndk { abiFilters 'armeabi-v7a' }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    sourceSets {
+        main {
+            assets.srcDirs += [rootProject.file('.cache/deps/assets')]
+            jniLibs.srcDirs += [rootProject.file('.cache/deps/jni')]
+        }
+        test.java.srcDirs += [rootProject.file('tests')]
+    }
+}
+tasks.register('prepareDependencies', Exec) {
+    workingDir rootProject.projectDir
+    commandLine providers.gradleProperty('pythonExecutable').getOrElse('python'), 'scripts/bootstrap.py'
+}
+tasks.named('preBuild').configure { dependsOn 'prepareDependencies' }
+dependencies {
+    implementation files(rootProject.file('.cache/deps/ocr-classes.jar'))
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20250517'
+}

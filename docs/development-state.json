@@ -1,0 +1,61 @@
+{
+  "date_local": "2026-11-06",
+  "objective": "finish the remaining features development and testing end to end",
+  "goal_complete": false,
+  "installed_tv_release": "v2 compact overlay + automatic popular result selection installed; physical remote accepted before and after reboot",
+  "development_release": {
+    "apk": "tv-assistant.apk",
+    "bytes": 4953145,
+    "sha256": "4d0f33db764a70adbb31ee51a3b1388f684283bbccff4a303277479a37453d5d",
+    "compiler": "Eclipse ECJ 3.38.0",
+    "compiler_sha256": "97c566b120009c203a2fc8b291f4a9adbc171cf1ccb70f06f6b4e1828c00ce8e",
+    "sdk": 34,
+    "min_sdk": 33,
+    "core_checks": 82,
+    "device_verification": "not proven by this build"
+  },
+  "live_catalog_checks": [
+    "Mad Max Fury Road movie identity and India offers",
+    "Dune 2021 identity/year-specific India offers",
+    "Californication 2007 series identity and India offers",
+    "YouTube Californication official/lyrics/live video identities"
+  ],
+  "lint": {
+    "errors": 0,
+    "warnings": 29,
+    "report": "lint-report.xml"
+  },
+  "next_required_state": "Investigate official Sign in with ChatGPT plan usage for general language reasoning; verify account/client eligibility before requesting API credentials. Phone cast and final debugging closure remain.",
+  "outstanding_gates": [
+    "Phone casting regression (owner has not tested)",
+    "Final debugging closure and ADB-closed acceptance of current release",
+    "General model-driven language layer: API access/configuration decision pending; current parser remains finite patterns"
+  ],
+  "tv_verified": [
+    "Movie/Standard and undo",
+    "YouTube explicit video selection and playback; pause/resume",
+    "Prime India triage, highlighted existing profile selection, title/year/Included Prime checks, primary Resume, fresh PLAYING confirmation",
+    "Prime explicit-app launch 13925ms; automatic-provider launch 19164ms (after native intent)",
+    "Prime force-stopped cold launch, automatic India provider selection, profile-to-playback verified in 21752ms after native intent; untouched-remote repeat",
+    "Native HDMI 1 switch verified against actual TCL source 15, then app source returned to 21",
+    "Stremio Mad Max exact title/year verified through primary title resource",
+    "Dune automatic popularity selected 2021; spoken-style year correction to 1984 verified through production replay",
+    "YouTube automatic popular selection verified from fresh song + artist metadata (2783ms and 2908ms)",
+    "YouTube rewind while playing, pause, resume, bounded volume up/down verified consecutively",
+    "Rollback restored Google and removed only own accessibility/media listener, then assistant capabilities re-enabled",
+    "Current compact overlay: owner accepted physical mic/live words/automatic YouTube playback; source uses system assistant session, no activity on mic path",
+    "Current overlay after real reboot: owner accepted Standard mode, undo, mic Back cancellation, Home/Input/Settings and held-volume repeat",
+    "Recognition ready times observed: cold 277-439ms; warm 87-174ms; no audio/screenshot files in app storage"
+  ],
+  "language_layer": {
+    "current": "finite local command patterns",
+    "preferred_next_route": "official Sign in with ChatGPT for eligible plan-backed Responses requests",
+    "connected": false,
+    "sources": [
+      "https://developers.openai.com/siwc/token-sharing-open-source",
+      "https://developers.openai.com/siwc/token-sharing-open-source/sign-in",
+      "https://developers.openai.com/siwc/token-sharing-open-source/preview-limitations"
+    ],
+    "audio_route": "Keep installed Google speech; plan-backed route is text reasoning, not transcription."
+  }
+}

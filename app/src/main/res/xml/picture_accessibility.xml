@@ -1,0 +1,9 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+ android:description="@string/picture_accessibility_description"
+ android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged"
+ android:packageNames="com.android.tv.settings,com.google.android.youtube.tv,com.google.android.youtube.tvmusic,com.amazon.amazonvideo.livingroom,com.netflix.ninja,in.startv.hotstar,com.sonyliv,com.stremio.one"
+ android:accessibilityFeedbackType="feedbackGeneric"
+ android:notificationTimeout="100"
+ android:accessibilityFlags="flagReportViewIds|flagIncludeNotImportantViews"
+ android:canTakeScreenshot="true"
+ android:canRetrieveWindowContent="true" />

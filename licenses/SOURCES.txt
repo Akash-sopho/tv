@@ -1,0 +1,6 @@
+Tesseract4Android-LICENSE: https://raw.githubusercontent.com/adaptech-cz/Tesseract4Android/4.9.0/LICENSE
+Tesseract-LICENSE: https://raw.githubusercontent.com/tesseract-ocr/tesseract/5.5.1/LICENSE
+English-model-LICENSE: https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/LICENSE
+Leptonica-LICENSE: https://raw.githubusercontent.com/DanBloomberg/leptonica/master/leptonica-license.txt
+libjpeg-turbo-LICENSE: https://raw.githubusercontent.com/libjpeg-turbo/libjpeg-turbo/main/LICENSE.md
+libpng-LICENSE: https://raw.githubusercontent.com/pnggroup/libpng/libpng16/LICENSE

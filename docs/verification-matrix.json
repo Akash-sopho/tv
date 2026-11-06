@@ -1,0 +1,75 @@
+{
+  "status": "Core actions, popular automatic selection, compact voice overlay and reboot accepted; phone casting/debugging closure and broader language layer remain",
+  "country": "IN",
+  "cloud_spoken_requests": "Owner waived provider audio-retention guarantee; prioritize accuracy/reliability using installed Google recognizer. No app audio/transcript archive.",
+  "requirements": {
+    "R01": {
+      "requirement": "physical remote microphone integration",
+      "state": "Physical mic + compact overlay + live words + automatic YouTube video accepted by owner; post-reboot mode/undo/cancel accepted."
+    },
+    "R02": {
+      "requirement": "user-initiated mic lifecycle and cancellation",
+      "state": "Owner confirmed Back cancellation with debugging off; bounded Google capture and generation-guarded late callbacks implemented."
+    },
+    "R03": {
+      "requirement": "accurate approved speech, no app audio/transcript archive",
+      "state": "Installed Google recognition accepted. Ready counters observed: cold 277-439ms, warm 87-174ms; app storage audit found zero audio/screenshot files."
+    },
+    "R04": {
+      "requirement": "intent and follow-up interpretation",
+      "state": "82 JVM checks across interpreter, schemas and catalog. Parser is finite patterns; broader model-driven language access decision remains open."
+    },
+    "R05": {
+      "requirement": "exact title resolution",
+      "state": "User requested automatic popularity selection. Dune selected 2021 automatically on TV; 1984 correction verified. Explicit year/type constrain candidates; Cinemeta popularity compares the relevant top three; source-rank fallback for missing scores."
+    },
+    "R06": {
+      "requirement": "live India availability",
+      "state": "Live India offers and native Prime title/playback passed on TV, including owner physical voice acceptance; membership badge required before autoplay. Paid offers remain separate."
+    },
+    "R07": {
+      "requirement": "explicit app selection",
+      "state": "Explicit YouTube route owner accepted with automatic most-viewed result. Stremio exact title/year verified on TV. Package choice stays pinned."
+    },
+    "R08": {
+      "requirement": "verified title launch/playback",
+      "state": "TV-verified: Prime exact title/year + membership + focused Resume, followed by fresh same-app PLAYING transition. Handles selected existing profile without creating/changing accounts. YouTube exact metadata PLAYING passed. Other provider adapters and physical content voice test remain."
+    },
+    "R09": {
+      "requirement": "real panel light control and undo",
+      "state": "Voice brightness confirmed with ADB closed; return to app and spoken undo confirmed. Default updated to 10 points, slightly 5, explicit amounts override; 41 contract checks pass. Cross-input undo unsupported."
+    },
+    "R10": {
+      "requirement": "Movie picture preset and undo",
+      "state": "Actual Movie/Standard changes and undo verified on TV; owner repeated mode/undo after reboot."
+    },
+    "R11": {
+      "requirement": "undo and conversational correction",
+      "state": "Brightness and mode undo owner accepted. Dune 2021 to 1984 correction verified on TV. App corrections retain original title/year/type in domain tests; a prior overlapping app-correction replay is not counted as evidence."
+    },
+    "R12": {
+      "requirement": "usable TV interaction states",
+      "state": "Compact translucent system-assistant overlay, reactive white bars and partial words installed. Real visual preview inspected and owner accepted current-screen preservation, live words and no-options playback. Explicit errors/choices retain remote controls."
+    },
+    "R13": {
+      "requirement": "casting/remote/service regression",
+      "state": "Owner accepted Home/Input/Settings and held-volume repeat after current release reboot. Phone casting not tested."
+    },
+    "R14": {
+      "requirement": "assistant survives reboot",
+      "state": "New boot identity, sys.boot_completed and bound assistant verified after 32.5s; owner then accepted actual mic mode/undo/cancel."
+    },
+    "R15": {
+      "requirement": "tested assistant rollback",
+      "state": "Rollback executed on TV: restored Google component, removed own accessibility/media listener, preserved other entries; reactivation and binding passed."
+    },
+    "R16": {
+      "requirement": "named native input switching",
+      "state": "HDMI 1 requested through TvContract native route; actual selected TCL device ID 15 verified. Later app context reported 21."
+    },
+    "R17": {
+      "requirement": "verified pause/resume/seek/volume and app opening",
+      "state": "Prime pause/resume/20s seek passed. YouTube pause/resume, rewind while playing and bounded volume up/down passed consecutively. Open-app now waits for actual foreground verification."
+    }
+  }
+}
